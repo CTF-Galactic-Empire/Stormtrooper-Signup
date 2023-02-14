@@ -2,7 +2,7 @@ name: Submit Stormtrooper Verification
 on:
   workflow_dispatch:
     inputs:
-      username:
+      username: ostan
         description: "CTF Username"
         required: true
       verificationCode:
