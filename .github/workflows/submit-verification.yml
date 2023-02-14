@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       username:
-        description: "Seebusch"
+        description: "CTF Username"
         required: true
       verificationCode:
         description: "Stormtrooper Verification Code"
