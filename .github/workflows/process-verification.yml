@@ -11,7 +11,7 @@ on:
         required: true
       verificationCode:
         description: "Stormtrooper Verification Code"
-        required: false
+        required: true
       ghuser:
         description: "GitHub Username"
         required: true
@@ -24,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check fork
-        if: github.event.repository.fork == false
+        if: github.event.repository.fork == true
         run: |
           echo "This workflow must run on the parent repository"
           exit 1
