@@ -9,3 +9,4 @@ Fill out this sign-up sheet with precision and haste, or suffer the consequences
 | Dislexsick |
 | IzzyBizzy |
 | b4-bturmel |
+| Seebusch |
