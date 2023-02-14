@@ -24,7 +24,6 @@ jobs:
         run: |
           VERIFICATION_CODE=$(jq -r '.inputs.verificationCode' $GITHUB_EVENT_PATH)
           echo ::add-mask::$VERIFICATION_CODE
-          echo $VERIFICATION_CODE
           echo SECRET_CODE="$VERIFICATION_CODE" >> $GITHUB_ENV
 
       - name: Submit Verification Request
