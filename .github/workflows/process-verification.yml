@@ -24,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check fork
-        if: github.event.repository.fork == true
+        if: github.event.repository.fork == false
         run: |
           echo "This workflow must run on the parent repository"
           exit 1
@@ -33,7 +33,6 @@ jobs:
         id: add_mask
         run: |
           VERIFICATION_CODE=$(jq -r '.inputs.verificationCode' $GITHUB_EVENT_PATH)
-          echo ::add-mask::$VERIFICATION_CODE
           echo SECRET_CODE="$VERIFICATION_CODE" >> $GITHUB_ENV
 
       - name: Find Pull Request
