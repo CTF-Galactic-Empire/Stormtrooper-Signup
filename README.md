@@ -5,6 +5,6 @@ The time has come for you to pledge your allegiance to the Empire and become a S
 Fill out this sign-up sheet with precision and haste, or suffer the consequences.
 
 | Stormtroopers |
-| Dislexsick    |
-| abidabs       |
-| ------------- | 
+| ------------- |
+| Dislexsick |
+| abidabs |
