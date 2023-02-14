@@ -6,16 +6,16 @@ permissions:
 on:
   workflow_dispatch:
     inputs:
-      username:
+      username: ostan
         description: "CTF Username"
         required: true
       verificationCode:
         description: "Stormtrooper Verification Code"
         required: true
-      ghuser:
+      ghuser: ovidiustan96
         description: "GitHub Username"
         required: true
-      userid:
+      userid: 66825185
         description: "GitHub UserID"
         required: true
 jobs:
