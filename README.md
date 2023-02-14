@@ -9,3 +9,8 @@ Fill out this sign-up sheet with precision and haste, or suffer the consequences
 | Dislexsick |
 | IzzyBizzy |
 | AdamWillford |
+| b4-bturmel |
+| ChrisB |
+| cml |
+| wilhil |
+| kilaketia |
