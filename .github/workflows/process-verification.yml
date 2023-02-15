@@ -50,7 +50,7 @@ jobs:
         if: ${{ startsWith(steps.verify-script.outputs.result, 'ERROR') }} || ${{ startsWith(steps.verify-script.outputs.result, 'SUCCESS') }}
         uses: mshick/add-pr-comment@v2
         with:
-          message: ${{ steps.verify-script.outputs.result }}
+          message: kissakala
           issue: ${{ steps.find-pull-request.outputs.number }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
