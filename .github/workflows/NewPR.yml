@@ -1,0 +1,21 @@
+name: New PR
+permissions:
+  pull-requests: write
+
+on:
+  pull_request_target:
+    types: opened
+    branches: main
+
+jobs:
+  verify:
+    name: Comment
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add PR Comment
+        if: ${{ steps.fc.outputs.comment-id }} == 0
+        uses: NejcZdovc/comment-pr@v2
+        with:
+          message: "ACTION REQUIRED: You must submit your verification to proceed. :lock:"
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
