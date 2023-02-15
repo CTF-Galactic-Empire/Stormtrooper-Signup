@@ -30,7 +30,7 @@ jobs:
         id: stormtrooper-verification
         uses: fjogeleit/http-request-action@v1
         with:
-          url: "https://ctf.johnwduprey.com/github/"
+          url: "https://github.com/CTF-Galactic-Empire/Stormtrooper-Signup/"
           method: "POST"
           customHeaders: '{"Content-Type": "application/x-www-form-urlencoded"}'
           data: "username=${{ inputs.username }}&verificationCode=${{ env.SECRET_CODE }}&ghuser=${{ github.event.sender.login }}"
