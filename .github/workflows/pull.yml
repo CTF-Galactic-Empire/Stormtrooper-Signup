@@ -1,4 +1,4 @@
-name: New PR
+name: New PullR
 permissions:
   pull-requests: write
 
