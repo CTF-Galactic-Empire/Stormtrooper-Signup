@@ -17,3 +17,4 @@ Fill out this sign-up sheet with precision and haste, or suffer the consequences
 | srvc |
 | JyeGuru |
 | gladier |
+| SmoothBrainMcGee |
