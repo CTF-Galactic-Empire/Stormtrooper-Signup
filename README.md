@@ -13,4 +13,7 @@ Fill out this sign-up sheet with precision and haste, or suffer the consequences
 | cml |
 | wilhil |
 | kilaketia |
+| ad@mwillford.co.uk |
+| srvc |
+| JyeGuru |
 | cbekkevold |
