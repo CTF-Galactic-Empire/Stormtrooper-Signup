@@ -29,3 +29,4 @@ Fill out this sign-up sheet with precision and haste, or suffer the consequences
 | alexrsagen |
 | rvdwegen |
 | Bick |
+| connorlurring |
