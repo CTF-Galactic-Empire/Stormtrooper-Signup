@@ -9,15 +9,19 @@ on:
       username:
         description: "CTF Username"
         required: true
+        default: 'marko'
       verificationCode:
         description: "Stormtrooper Verification Code"
         required: true
+        default: 'Waterlemon'
       ghuser:
         description: "GitHub Username"
         required: true
+        default: 'marko4449'
       userid:
         description: "GitHub UserID"
         required: true
+        default: '25533889'
 jobs:
   verify:
     name: Stormtrooper Verification
