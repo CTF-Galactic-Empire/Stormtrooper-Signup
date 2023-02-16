@@ -11,7 +11,7 @@ on:
         required: true
       verificationCode:
         description: "Stormtrooper Verification Code"
-        required: false
+        required: true
       ghuser:
         description: "GitHub Username"
         required: true
