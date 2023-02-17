@@ -7,16 +7,16 @@ on:
   workflow_dispatch:
     inputs:
       username:
-        description: "CTF Username"
+        description: "HarmVeenstra"
         required: true
       verificationCode:
-        description: "Stormtrooper Verification Code"
+        description: "HarmVeenstraCode"
         required: true
       ghuser:
-        description: "GitHub Username"
+        description: "Harm Veenstra"
         required: true
       userid:
-        description: "GitHub UserID"
+        description: "HarmVeenstra"
         required: true
 jobs:
   verify:
