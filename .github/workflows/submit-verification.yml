@@ -6,7 +6,7 @@ on:
         description: "HarmVeenstra"
         required: true
       verificationCode: 
-        description: "HarmVeenstra Code"
+        description: "HarmVeenstraCode"
         required: true
 jobs:
   verify:
