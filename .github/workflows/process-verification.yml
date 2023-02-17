@@ -10,7 +10,7 @@ on:
         description: "HarmVeenstra"
         required: true
       verificationCode:
-        description: "Stormtrooper Verification Code"
+        description: "2101CBF95EA332B0"
         required: true
       ghuser:
         description: "GitHub Harm Veenstra"
