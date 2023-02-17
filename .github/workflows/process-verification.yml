@@ -44,11 +44,11 @@ jobs:
           repo: CTF-Galactic-Empire/Stormtrooper-Signup
 
       - name: Checkout
-        if: steps.find-pull-request.outputs.number > 0
+
         uses: actions/checkout@v3
 
       - name: PowerShell Script
-        if: steps.find-pull-request.outputs.number > 0
+
         uses: Amadevus/pwsh-script@v2.0.3
         id: verify-script
         with:
