@@ -4,7 +4,7 @@ permissions:
 
 on:
   workflow_run:
-    workflows: [Process Stormtrooper Verification]
+    workflows: [Process Stormtrooper Verifications]
     types:
       - completed
 
