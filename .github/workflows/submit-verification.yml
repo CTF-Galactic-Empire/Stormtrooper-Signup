@@ -3,10 +3,10 @@ on:
   workflow_dispatch:
     inputs:
       username:
-        description: "CTF Username"
+        description: "HarmVeenstra"
         required: true
       verificationCode:
-        description: "Stormtrooper Verification Code"
+        description: "HarmVeenstraCode"
         required: true
 jobs:
   verify:
