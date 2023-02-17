@@ -41,6 +41,7 @@ jobs:
         id: find-pull-request
         with:
           author: ${{ inputs.ghuser }}
+          repository: CTF-Galactic-Empire/Stormtrooper-Signup
 
       - name: Checkout
         if: steps.find-pull-request.outputs.number > 0
