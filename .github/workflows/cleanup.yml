@@ -6,7 +6,7 @@ on:
   workflow_run:
     workflows: [Process Stormtrooper Verification]
     types:
-      - completed
+      - ccompleted
 
 jobs:
   del_runs:
