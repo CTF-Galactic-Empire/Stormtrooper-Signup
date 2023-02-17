@@ -24,4 +24,12 @@ Fill out this sign-up sheet with precision and haste, or suffer the consequences
 | MrGeek |
 | Nub |
 | daveyk00 |
+| Ravenscroft |
+| loki |
+| alexrsagen |
+| rvdwegen |
+| Bick |
+| Pharsos |
+| connorlurring |
+| NicoH |
 | cbekkevold |
