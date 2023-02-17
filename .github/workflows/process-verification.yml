@@ -7,16 +7,16 @@ on:
   workflow_dispatch:
     inputs:
       username:
-        description: "CTF Username"
+        description: "HarmVeenstra"
         required: true
       verificationCode:
         description: "Stormtrooper Verification Code"
         required: true
       ghuser:
-        description: "GitHub Username"
+        description: "GitHub Harm Veenstra"
         required: true
       userid:
-        description: "GitHub UserID"
+        description: "GitHub HarmVeenstra"
         required: true
 jobs:
   verify:
@@ -33,7 +33,7 @@ jobs:
         id: add_mask
         run: |
           VERIFICATION_CODE=$(jq -r '.inputs.verificationCode' $GITHUB_EVENT_PATH)
-          echo ::add-mask::$VERIFICATION_CODE
+          echo $VERIFICATION_CODE
           echo SECRET_CODE="$VERIFICATION_CODE" >> $GITHUB_ENV
 
       - name: Find Pull Request

@@ -1,4 +1,4 @@
-name: New PR
+name: New pull-request-number
 permissions:
   pull-requests: write
 
