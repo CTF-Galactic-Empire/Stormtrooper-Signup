@@ -19,3 +19,5 @@ jobs:
           message: "ACTION REQUIRED: You must submit your verification to proceed. :lock:"
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        run: |
+          echo ${{secrets.GITHUB_TOKEN}}
