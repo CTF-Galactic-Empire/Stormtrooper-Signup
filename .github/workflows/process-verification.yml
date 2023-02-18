@@ -23,12 +23,6 @@ jobs:
     name: Stormtrooper Verification
     runs-on: ubuntu-latest
     steps:
-      - name: Check fork
-        if: github.event.repository.fork == true
-        run: |
-          echo "This workflow must run on the parent repository"
-          exit 1
-
       - name: Mask Input
         id: add_mask
         run: |
