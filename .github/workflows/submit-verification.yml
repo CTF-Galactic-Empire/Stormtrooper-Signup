@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check fork
-        if: github.event.repository.fork == true
+        if: github.event.repository.fork == false
         run: |
           echo "This workflow must run on your fork"
           exit 1
