@@ -5,7 +5,7 @@ The time has come for you to pledge your allegiance to the Empire and become a S
 Fill out this sign-up sheet with precision and haste, or suffer the consequences.
 
 | Stormtroopers |
-| GateKeeper2213 |
+| ------------- |
 | Dislexsick |
 | IzzyBizzy |
 | b4-bturmel |
@@ -38,3 +38,4 @@ Fill out this sign-up sheet with precision and haste, or suffer the consequences
 | JamesRood |
 | CarlosA |
 | vonsch |
+| GateKeeper2213 |
