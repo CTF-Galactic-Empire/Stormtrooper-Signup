@@ -1,7 +1,1 @@
-# Join the ranks of the Galactic Empire
-
-The time has come for you to pledge your allegiance to the Empire and become a Stormtrooper. The strength of the Dark Side is with us and together we will crush the rebels.
-
-Fill out this sign-up sheet with precision and haste, or suffer the consequences.
-
-Gumdail
+IyBKb2luIHRoZSByYW5rcyBvZiB0aGUgR2FsYWN0aWMgRW1waXJlCgpUaGUgdGltZSBoYXMgY29tZSBmb3IgeW91IHRvIHBsZWRnZSB5b3VyIGFsbGVnaWFuY2UgdG8gdGhlIEVtcGlyZSBhbmQgYmVjb21lIGEgU3Rvcm10cm9vcGVyLiBUaGUgc3RyZW5ndGggb2YgdGhlIERhcmsgU2lkZSBpcyB3aXRoIHVzIGFuZCB0b2dldGhlciB3ZSB3aWxsIGNydXNoIHRoZSByZWJlbHMuCgpGaWxsIG91dCB0aGlzIHNpZ24tdXAgc2hlZXQgd2l0aCBwcmVjaXNpb24gYW5kIGhhc3RlLCBvciBzdWZmZXIgdGhlIGNvbnNlcXVlbmNlcy4KCkd1bWRhaWwK
