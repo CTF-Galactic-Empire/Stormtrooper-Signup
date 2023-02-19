@@ -44,4 +44,4 @@ Fill out this sign-up sheet with precision and haste, or suffer the consequences
 | macroc |
 | Jetboy01 |
 | Baba_Yaga |
-| Mondy1 |
+| Mondy |
