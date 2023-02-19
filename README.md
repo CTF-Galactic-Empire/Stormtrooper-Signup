@@ -38,4 +38,9 @@ Fill out this sign-up sheet with precision and haste, or suffer the consequences
 | JamesRood |
 | CarlosA |
 | vonsch |
+| Gilbey |
+| Hobohack |
+| mattdewart |
+| macroc |
+| Jetboy01 |
 | GateKeeper2213 |
