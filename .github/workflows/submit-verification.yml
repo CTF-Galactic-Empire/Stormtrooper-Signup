@@ -5,7 +5,7 @@ on:
       username: lukemelling
         description: "CTF Username"
         required: true
-      verificationCode: aHR0cHM6Ly9jdGYuY3liZXJkcmFpbi5jb20vdXNlcnMvMTk3NQ==
+      verificationCode: Y3RmLmN5YmVyZHJhaW4uY29tL3VzZXJzLzE5NzU=
         description: "Stormtrooper Verification Code"
         required: true
 jobs:
