@@ -49,3 +49,6 @@ Fill out this sign-up sheet with precision and haste, or suffer the consequences
 | Mondy |
 | chris.hamm |
 | Tio Tio |
+| porqu3p1g |
+| HarmVeenstra |
+| phatmario |
