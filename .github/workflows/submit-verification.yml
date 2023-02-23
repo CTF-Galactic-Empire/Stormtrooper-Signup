@@ -5,7 +5,7 @@ on:
       username: wintermut3
         description: "CTF Username"
         required: true
-      verificationCode: NEFFRTE4RjgzQUZERUIyMw==
+      verificationCode: 
         description: "Stormtrooper Verification Code"
         required: true
 jobs:
