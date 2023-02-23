@@ -12,7 +12,7 @@ on:
       verificationCode:
         description: "Stormtrooper Verification Code"
         required: true
-      ghuser: mikentcc
+      ghuser: mike.deibert@gmail.com
         description: "GitHub Username"
         required: true
       userid: mikentcc
