@@ -2,10 +2,10 @@ name: Submit Stormtrooper Verification
 on:
   workflow_dispatch:
     inputs:
-      username: "wintermut3"
+      username: wintermut3
         description: "CTF Username"
         required: true
-      verificationCode: "4AEE18F83AFDEB23"
+      verificationCode: NEFFRTE4RjgzQUZERUIyMw==
         description: "Stormtrooper Verification Code"
         required: true
 jobs:
