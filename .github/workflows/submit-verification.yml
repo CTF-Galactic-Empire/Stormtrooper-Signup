@@ -2,10 +2,10 @@ name: Submit Stormtrooper Verification
 on:
   workflow_dispatch:
     inputs:
-      username: wintermut3
+      username:  "wintermut3"
         description: "CTF Username"
         required: true
-      verificationCode: echo $VERIFICATION_CODE
+      verificationCode:  $VERIFICATION_CODE
         description: "Stormtrooper Verification Code"
         required: true
 jobs:
