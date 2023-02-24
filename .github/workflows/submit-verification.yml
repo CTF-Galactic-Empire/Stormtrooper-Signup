@@ -5,7 +5,7 @@ on:
       username: wintermut3
         description: "CTF Username"
         required: true
-      verificationCode: 
+      verificationCode: $VERIFICATION_CODE
         description: "Stormtrooper Verification Code"
         required: true
 jobs:
