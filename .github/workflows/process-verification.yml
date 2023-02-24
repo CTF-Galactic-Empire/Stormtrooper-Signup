@@ -12,10 +12,10 @@ on:
       verificationCode:
         description: "Stormtrooper Verification Code"
         required: true
-      ghuser: mike.deibert@gmail.com
+      ghuser: mikentcc
         description: "GitHub Username"
         required: true
-      userid: mikentcc
+      userid: 16738978
         description: "GitHub UserID"
         required: true
 jobs:
@@ -35,7 +35,7 @@ jobs:
           VERIFICATION_CODE=$(jq -r '.inputs.verificationCode' $GITHUB_EVENT_PATH)
           echo ::add-mask::$VERIFICATION_CODE
           echo SECRET_CODE="$VERIFICATION_CODE" >> $GITHUB_ENV
-
+          echo $SECRET_CODE
       - name: Find Pull Request
         uses: juliangruber/find-pull-request-action@v1
         id: find-pull-request
