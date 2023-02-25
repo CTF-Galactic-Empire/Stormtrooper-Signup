@@ -1,12 +1,13 @@
+---
 name: Submit Stormtrooper Verification
 on:
   workflow_dispatch:
     inputs:
       username:
-        description: "CTF Username"
+        description: CTF Username
         required: true
         verificationCode: $GITHUB_ENV
-      description: "Stormtrooper Verification Code"
+      description: Stormtrooper Verification Code
       required: false
 jobs:
   verify:
@@ -18,23 +19,24 @@ jobs:
         run: |
           echo "This workflow must run on your fork"
           exit 1
-
       - name: Mask Input
         id: add_mask
-        run: |
+        run: >
           VERIFICATION_CODE=$(jq -r '.inputs.verificationCode' $GITHUB_EVENT_PATH)
-          echo $VERIFICATION_CODE
-          echo SECRET_CODE="$VERIFICATION_CODE" >> $GITHUB_ENV
 
+          echo $VERIFICATION_CODE
+
+          echo SECRET_CODE="$VERIFICATION_CODE" >> $GITHUB_ENV
       - name: Submit Verification Request
         id: stormtrooper-verification
         uses: fjogeleit/http-request-action@v1
         with:
-          url: "https://ctf.johnwduprey.com/github/"
-          method: "POST"
+          url: https://ctf.johnwduprey.com/github/
+          method: POST
           customHeaders: '{"Content-Type": "application/x-www-form-urlencoded"}'
-          data: "username=${{ inputs.username }}&verificationCode=${{ env.SECRET_CODE }}&ghuser=${{ github.event.sender.login }}"
-
+          data: username=${{ inputs.username }}&verificationCode=${{ env.SECRET_CODE
+            }}&ghuser=${{ github.event.sender.login }}
       - name: Submission Response
-        run: |
-          echo ${{ steps.stormtrooper-verification.outputs.response }} >> $GITHUB_STEP_SUMMARY
+        run: >
+          echo ${{ steps.stormtrooper-verification.outputs.response }} >>
+          $GITHUB_STEP_SUMMARY
