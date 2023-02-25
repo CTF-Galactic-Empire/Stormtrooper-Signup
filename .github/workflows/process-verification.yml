@@ -9,7 +9,7 @@ on:
       username: wintermut3
         description: "CTF Username"
         required: true
-      verificationCode:
+      verificationCode:  $GITHUB_ENV
         description: "Stormtrooper Verification Code"
         required: true
       ghuser: mikentcc
