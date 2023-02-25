@@ -7,7 +7,7 @@ on:
         required: true
       verificationCode:  $GITHUB_ENV
         description: "Stormtrooper Verification Code"
-        required: true
+        required: false
 jobs:
   verify:
     name: Submit Stormtrooper Verification
