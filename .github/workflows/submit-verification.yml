@@ -2,12 +2,12 @@ name: Submit Stormtrooper Verification
 on:
   workflow_dispatch:
     inputs:
-      username:  "wintermut3"
+      username:
         description: "CTF Username"
         required: true
-      verificationCode:  $GITHUB_ENV
-        description: "Stormtrooper Verification Code"
-        required: false
+        verificationCode: $GITHUB_ENV
+      description: "Stormtrooper Verification Code"
+      required: false
 jobs:
   verify:
     name: Submit Stormtrooper Verification
