@@ -11,7 +11,7 @@ on:
         required: true
       verificationCode:  $GITHUB_ENV
         description: "Stormtrooper Verification Code"
-        required: true
+        required: false
       ghuser: mikentcc
         description: "GitHub Username"
         required: true
