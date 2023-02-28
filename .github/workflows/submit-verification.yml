@@ -7,7 +7,7 @@ on:
         description: CTF Username
         required: true
         verificationCode: $GITHUB_ENV
-      description: Stormtrooper Verification Code
+      description: "Stormtrooper Verification Code"
       required: false
 jobs:
   verify:
